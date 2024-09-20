@@ -2,5 +2,4 @@
 MONGODB_URI = mongodb://localhost:27017/
 MONGODB_DATABASE = MBDB
 MONGODB_COLLECTION = transaction_records
-
 DELIMETER = |
