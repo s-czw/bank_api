@@ -1,7 +1,7 @@
 # bank_api<br/>
 ## batch_job
-Consume data from **raw/dataSource.txt** using Python into MongoDB.
-It will truncate the database before consuming new data.<br/>
+Consume data from **raw/dataSource.txt** using Python into MongoDB.<br/>
+_It will truncate the database before consuming new data._<br/>
 1. Basic setup, edit config.txt for configurations
 ```
 - MONGODB_URI:        defines the MongoDB URI
@@ -21,16 +21,16 @@ cd backend_api
 npm start
 ```
 2. List of REST APIs:
-- POST /authenticate
+- **POST** _/authenticate_
 <br/>Required on app initialize, to obtain the authentication token for subsequent API requests.
 
-- GET /api/transactions
+- **GET** _/api/transactions_
 <br/>Retrieve list of transactions, based on search criteria.
 
-- GET /api/transactions/{id}
+- **GET** _/api/transactions/{id}_
 <br/>Retrieve transaction by ID.
 
-- PUT /api/transactions/{id}
+- **PUT** _/api/transactions/{id}_
 ```
 Body: { "description": "new description" }
 ```
