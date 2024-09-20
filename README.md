@@ -1,4 +1,5 @@
 # bank_api<br/>
+Refer to the ***Transaction_app_diagram.pdf*** for the planning and diagram documentation.<br/>
 ## batch_job
 Consume data from **raw/dataSource.txt** using Python into MongoDB.<br/>
 _It will truncate the database before consuming new data._<br/>
