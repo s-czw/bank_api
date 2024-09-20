@@ -23,6 +23,7 @@ npm start
 2. List of REST APIs:
 - **POST** _/authenticate_
 <br/>Required on app initialize, to obtain the authentication token for subsequent API requests.
+<br/>_(Token expires in 1 hour)_
 
 - **GET** _/api/transactions_
 <br/>Retrieve list of transactions, based on search criteria.
